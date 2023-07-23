@@ -2,7 +2,7 @@
     "version": 2,
     "name": "",
     "builds": [
-        { "src": "*.js","use":"@vercel/node"}
+        { "src": "node backend.js","use":"@vercel/node"}
     ],
     "routes":[
         {"src":"/(.*)","dest": "/server.js"}
