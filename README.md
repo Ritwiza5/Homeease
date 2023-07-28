@@ -18,7 +18,7 @@
      ⭐View products<br>
      ⭐Make payments<br>
      ⭐Edit profile<br>
-⭐<b>Site owner functionalities:<b><br>
+⭐<b>Site owner functionalities:</b><br>
 ⭐Add products<br>
 ⭐Delete reviews<br>
 ⭐Delete products<br>
