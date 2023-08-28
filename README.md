@@ -59,7 +59,35 @@
 
 <br>⭐<b>Some useful links for designing</b>:<br>
 <br>⭐<b>Glassmorphism</b>:https://css.glass/<br>
-<br>⭐<b>Gradients</b>:
+⭐<b>Gradients</b>https://mycolor.space/<br>
+⭐<b>Color palletes</b>:https://colorhunt.co/<br>
+⭐<b>Flourescent colors</b>:https://www.color-hex.com/color-palette/8618<br>
+⭐<b>Material UI documentation</b>:https://mui.com/material-ui/getting-started/<br>
+<br>⭐<b>Frontend packages</b>:<br>
+![Screenshot (370)](https://github.com/Ritwiza5/Homeease/assets/106557993/377d1a8e-3e3b-4fd9-864d-12c29bb946fb)<br>
+
+<br>⭐<b>Frontend dependencies</b>:<br>
+![Screenshot (368)](https://github.com/Ritwiza5/Homeease/assets/106557993/1c277022-f6c3-4cbb-b0eb-f443d649e2d0)<br>
+
+⭐<b>Project packages<b>:<br>
+![Screenshot (369)](https://github.com/Ritwiza5/Homeease/assets/106557993/7aa3b92a-10ee-4a91-832f-be83f50f0cb6)<br>
 
 
-     
+
+<br>⭐<b>How to run the project?</b><br>
+
+<br>⭐Clone the project first using the following link:https://github.com/Ritwiza5/Homeease.git<br>
+⭐Create the `.env` file in the config folder usinf the following template:<br>
+![Screenshot (367)](https://github.com/Ritwiza5/Homeease/assets/106557993/11c7af2e-ff3a-403d-8a1e-a9a97b9a3256)<br>
+⭐To run the project in development mode,run the command:`npm run start`<br>
+⭐To run the project in local system,firstly delete the build folder and then run the following commands:<br>
+⭐For frontend:`npm run`<br>
+⭐For backend:`npm run dev`<br>
+<br>⭐<b>Useful links</b>:<br>
+<br>⭐<b>Project demo</b>:https://sendgb.com/ymC6iN1TxsH<br>
+⭐<b>Project link</b>:https://project-vcv0.onrender.com/<br>
+⭐[Backend Repository](https://github.com/Ritwiza5/Homeease)<br>
+⭐[Frontend Repository](https://github.com/Ritwiza5/Homeease/tree/master/frontend)<br>
+
+
+
