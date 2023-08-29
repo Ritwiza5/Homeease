@@ -91,7 +91,7 @@ CLOUDINARY_API_SECRET=QgYDkTOeiyAbn8yGB8RlFXOkrM4
 ⭐For frontend:`npm run`<br>
 ⭐For backend:`npm run dev`<br>
 
-## Project Structure
+## ⭐Project Structure
 ```bash
   .
   ├── BACKEND 
