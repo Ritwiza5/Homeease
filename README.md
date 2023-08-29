@@ -1,6 +1,6 @@
 # Homeease-  ![4890230](https://github.com/Ritwiza5/Homeease/assets/106557993/7d948d22-c4f8-4d85-92f0-e90db6dab401)
 ⭐Homeease is a complete webapp used for online shopping.From ordering products to make payments online,it makes every thing available at just one click.Super easy and user-friendly.<br>
-<br>⭐<b>Tech stack used</b>: <br>
+## <br>⭐<b>Tech stack used</b>: <br>
 <br>⭐<b>Frontend</b>:<br>
 -React<br>
 -Redux<br>
@@ -15,7 +15,7 @@
 
 
 
-<br>⭐<b>User side functionalities:</b><br>
+## <br>⭐<b>User side functionalities:</b><br>
  <br>    ⭐<b>Login/Register</b>:User can login/Register.Passwords are secured in the database as password is hashed using bcrypt before saving it into database.<br>
      ![Screenshot (353)](https://github.com/Ritwiza5/Homeease/assets/106557993/740670d5-0392-4526-87ad-ad92a8c2956a)<br>
  <br> ⭐<b>Forget password</b>:User can reset password by clicking on forgot password which will send a password recovery mail to your logged in mail using nodemailer<br>
@@ -39,7 +39,7 @@
   ![Screenshot (359)](https://github.com/Ritwiza5/Homeease/assets/106557993/baca421e-ce3d-432c-b000-c8836a6c358a)<br>
 <br>
     
-⭐<b>Site owner functionalities</b>:<br>
+## ⭐<b>Site owner functionalities</b>:<br>
 <br>⭐<b>Add products</b>:The admin can add new products on the website.<br>
 <br>⭐<b>Delete reviews</b>:The admin can delete one or more reviews from the website.<br>
 <br>⭐<b>Delete products</b>:The admin can delete one or more products from the website.<br>
@@ -49,16 +49,74 @@
 
 
 
-<br>⭐<b>How to run the project?</b><br>
+## <br>⭐<b>How to run the project?</b><br>
 
 <br>⭐Clone the project first using the following link:https://github.com/Ritwiza5/Homeease.git<br>
-⭐Create the `.env` file in the config folder usinf the following template:<br>
-![Screenshot (367)](https://github.com/Ritwiza5/Homeease/assets/106557993/11c7af2e-ff3a-403d-8a1e-a9a97b9a3256)<br>
+⭐Create the `.env` file in the config folder using the following template(Example):<br>
+```properties
+PORT=4000
+
+DB_URI=mongodb+srv://password@homeease.kakxxne.mongodb.net/?retryWrites=true&w=majority
+
+FRONTEND_URL="https://homeease-56gr.onrender.com/"
+
+STRIPE_API_KEY=pk_test_51N7Dg6SBvIQu1hmuq4EgYBnNtihJJA1Xe4wUPiw5V81p04Q2O3UIz3GCB0avVcgdn78fgedFaDt424tev1QnzEAj00jBQVqfXv
+
+STRIPE_SECRET_KEY=sk_test_51N7Dg6SBvIQu1hmuX6WqfZmvLD2arQ6Tmao9K02igMscz8SRSBGQqAe7leavTmoa6gtsgv8qMgtokZT9LPOZsLTv00PZUBElvp
+
+JWT_SECRET=EDGFHJKHJBGVFCDXZASWDNU,JWECKOCNYSDFGHJK
+
+JWT_EXPIRE=5d
+
+COOKIE_EXPIRE=5
+
+SMTP_SERVICE="gmail"
+
+SMTP_MAIL="admin@gmail.com"
+
+SMTP_PASSWORD="ypzwpthguytbmzso"
+
+SMTP_HOST="smtp.gmail.com"
+
+CLOUDINARY_NAME=dgerb3ctb
+
+CLOUDINARY_API_KEY=296485345628764
+
+CLOUDINARY_API_SECRET=QgYDkTOeiyAbn8yGB8RlFXOkrM4
+```
+
+
 ⭐To run the project in development mode,run the command:`npm run start`<br>
 ⭐To run the project in local system,firstly delete the build folder and then run the following commands:<br>
 ⭐For frontend:`npm run`<br>
 ⭐For backend:`npm run dev`<br>
-<br>⭐<b>Useful links</b>:<br>
+
+## Project Structure
+```bash
+  .
+  ├── BACKEND 
+    ├── config                     #For storing environment variables and other connection data  
+    ├── controllers                # Application Controllers              
+    ├── middleware                 # Application middleware (Checking if user is authenticated (DeserializeUser), etc.)
+    ├── models                     # Application models
+    ├── routes                     # Application routes
+    ├── utils                      # Application utilities (for sending emails, generating tokens, etc.)
+    ├── app.js                     # entry point to the application
+    ├── utils                      # Connecting Cloudinary etc
+    
+  ├── FRONTEND                   
+    ├── actions                    #Project actions
+    ├── components                 #Components used in project
+    ├── constants                  #Project constants
+    ├── reducers                   #Project reducers
+    ├── App.css                    #Application styles
+    ├── App.js                     #Group all routes
+    ├── index.js                   #Entry point
+    ├── store.js                   #common database for redux library
+    
+   ```
+
+## <br>⭐<b>Useful links</b>:<br>
 <br>⭐<b>Project demo</b>:https://sendgb.com/ymC6iN1TxsH<br>
 ⭐<b>Project link</b>:https://project-vcv0.onrender.com/<br>
 ⭐[Backend Repository](https://github.com/Ritwiza5/Homeease)<br>
