@@ -60,14 +60,6 @@ const Home = () => {
 <div className="cards">
 <h2 className="homeHeading">Featured Products</h2>
   <div className="container2" id="container">
-     {/* <Product product={product} />
-      <Product product={product} />
-      <Product product={product} />
-      <Product product={product} />
-      <Product product={product} />
-      <Product product={product} />
-      <Product product={product} />
-      <Product product={product} /> */}
 
       {products && products.map(product=>(<Product product={product}/>))}
   </div>
