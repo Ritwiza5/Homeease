@@ -123,7 +123,7 @@ const LoginSignUp = ({history,location}) => {
                     <LockOpenIcon />
                     <input
                     type="password"
-                    placeholder="Password"
+                    placeholder="Password(min 8 char)"
                     required
                     value={loginPassword}
                     onChange={(e)=>setLoginPassword(e.target.value)}
