@@ -88,6 +88,7 @@ CLOUDINARY_API_SECRET=QgYDkTOeiyAbn8yGB8RlFXOkrM4
 
 ⭐To run the project in development mode,run the command:`npm run start`<br>
 ⭐To run the project in local system,firstly delete the build folder and then run the following commands:<br>
+⭐Add the proxy in the package.json file to run the frontend on the local server<br>
 ⭐For frontend:`npm run`<br>
 ⭐For backend:`npm run dev`<br>
 
